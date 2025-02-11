@@ -46,7 +46,7 @@ function App() {
   };
 
   return (
-    <div className="bg-primary text-white">
+    <div className="bg-primary text-white overflow-hidden">
       {/* Hero Section with Carousel */}
       <div className="h-screen">
         <Slider {...carouselSettings}>
